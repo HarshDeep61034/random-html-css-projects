@@ -1,0 +1,550 @@
+*{
+    padding: 0;
+    margin: 0;
+    /* font-family: 'Ubuntu', sans-serif; */
+    font-family: 'Anybody', cursive;
+}
+.nav{
+    background-image: url('/img/header.jpg');
+    background-size: cover;
+    max-width: 100vw;
+    height: 100vh;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    margin: 13px;
+    font-size: 12px;
+    
+    color: white;
+    position: relative;
+    top: 28px;
+    left: 15px;
+}
+.logo{
+    background-image: url("/img/logo.png");
+    background-size: cover;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    top: -20px;
+    left: 800px;
+}
+
+.semiline{
+    color: white;
+    text-align: center;
+    position: relative;
+    top: 65px;
+}
+.line{
+    color: white;
+    text-align: center;
+    position: relative;
+    top: 70px;
+    font-size: 50px;
+   
+}
+
+.xd{
+    max-width: 100vw;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 70px;
+
+}
+.btn{
+    width: 160px;
+    height: 50px;
+    margin: 15px;
+    color: white;
+    background-color: rgb(255,102,0);
+    border: 1px solid rgb(255,102,0);
+
+}
+.btn:hover{
+    color: rgb(255,102,0);
+    background-color: transparent;
+}
+
+.two{
+    max-width: 100vw;
+    height: 120vh;
+}
+.text1{
+    max-width: 100vw;
+    height: 13vh;
+    font-size: 50px;
+    position: relative;
+    text-align: end;
+    padding: 100px;
+}
+
+p.bl{
+    color: black;
+
+}
+
+p.o{
+    color: rgb(255,102,0);
+    position: relative;
+    left: 20px;
+}
+.dx{
+    
+    max-width: 100vw;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 30px;
+    
+    
+}
+
+.btn1{
+    width: 160px;
+    height: 50px;
+    margin: 20px;
+    color: black;
+    background-color: transparent;
+    border: 1px solid black;
+    font-size: 12px;
+
+}
+.btn1:hover{
+    color: white;
+    background-color: black;
+}
+
+.btn2{
+    width: 160px;
+    height: 50px;
+    margin: 20px;
+    color: white;
+    background-color: black;
+    border: 1px solid black;
+    font-size: 12px;
+}
+.btn2:hover{
+    color: black;
+    background-color: transparent;
+    border: 1px solid black;
+}
+
+.images{
+    height: 70vh;
+    max-width: 100vw;
+    position: relative;
+    top: 100px;
+}
+.img1{
+    height: 60vh;
+    width: 68vw;
+    background-image: url("/img/bikes.png");
+    background-size: cover;
+    display: inline-block;
+}
+
+
+.img2{
+    height: 65vh;
+    width: 29vw;
+    background-image: url("/img/cycle.jpg");
+    background-size: cover;
+    display: inline-block;
+    border-radius: 7px;
+}
+
+.last{
+    position: relative;
+    top: 200px;
+    height: 60vh;
+    max-width: 100vw;
+    display: flex;
+    justify-content: space-between;
+
+
+}
+
+.a{
+    height: 230px;
+    width: 275px;
+    /* background-color: red;
+    border: 2px solid black; */
+    background-image: url("https://s7g10.scene7.com/is/image/ktm/150669_%20KTM%20390%20DUKE%20MY%202017:Medium?wid=700&hei=525&dpr=off");
+    background-size: cover;
+    margin-left: 30px;
+    border-radius: 5px;
+}
+
+.a:hover{
+    height: 255px;
+    width: 300px;
+   
+
+}
+.b:hover{
+    height: 255px;
+    width: 300px;
+
+}
+
+.c:hover{
+    height: 255px;
+    width: 300px;
+
+}
+
+
+.b{
+    height: 230px;
+    width: 275px;
+    background-image: url("https://s7g10.scene7.com/is/image/ktm/390adv2020:Medium?wid=700&hei=525&dpr=off");
+    background-size: cover;
+    border-radius: 5px;
+    
+}
+
+.c{
+    height: 230px;
+    width: 275px;
+    background-image: url("https://s7g10.scene7.com/is/image/ktm/rc22-supermoto-abs-us:Medium?wid=700&hei=524&dpr=off");
+    background-size: cover;
+    border-radius: 5px;
+    margin-right: 30px;
+}
+
+.info{
+    position: relative;
+    top: 175px;
+    height: 60vh;
+    max-width: 100vw;
+    display: flex;
+    justify-content: space-between;
+
+
+}
+
+.a1{
+    height: 50px;
+    width: 275px;
+    margin-left: 30px;
+    font-size: 10px;
+}
+
+.b1{
+    height: 50px;
+    width: 275px;
+    font-size: 10px;
+}
+
+.c1{
+    height: 50px;
+    width: 275px;
+    font-size: 10px;
+    margin-right: 30px;
+}
+
+p.inf{
+    font-size: 20px;
+    position: relative;
+    top: 7px;
+}
+
+
+
+.cast{
+    position: relative;
+    top: 0px;
+    height: 60vh;
+    max-width: 100vw;
+    display: flex;
+    justify-content: space-between;
+
+
+}
+
+.d{
+    height: 230px;
+    width: 275px;
+    /* background-color: red;
+    border: 2px solid black; */
+    background-image: url("https://s7g10.scene7.com/is/image/ktm/480554_manuel-lettenbichler_HEWC_2022_Rnd8_Hixpania-Hard-Enduro_14025_8th%20Rd.%20Hard%20En-HX7XhHI3Cf?$ktm_teaser_square$&wid=500&dpr=off");
+    background-size: cover;
+    margin-left: 30px;
+    border-radius: 5px;
+}
+
+.d:hover{
+    height: 255px;
+    width: 300px;
+   
+
+}
+.e:hover{
+    height: 255px;
+    width: 300px;
+
+}
+
+.f:hover{
+    height: 255px;
+    width: 300px;
+
+}
+
+
+.e{
+    height: 230px;
+    width: 275px;
+    background-image: url("https://s7g10.scene7.com/is/image/ktm/471546_Vialle_MXGP_2022_R18_AH9I1332_18th%20Rd%20MXGP%202022%20_%20Afyonkarahisar%20_TUR_?$ktm_teaser_square$&wid=500&dpr=off");
+    background-size: cover;
+    border-radius: 5px;
+    
+}
+
+.f{
+    height: 230px;
+    width: 275px;
+    background-image: url("https://s7g10.scene7.com/is/image/ktm/KTM_MXGP_Loket_13_2022_JPA_PA_234711?$ktm_teaser_square$&wid=500&dpr=off");
+    background-size: cover;
+    border-radius: 5px;
+    margin-right: 30px;
+}
+
+.infor{
+    position: relative;
+    top: -20px;
+    height: 60vh;
+    max-width: 100vw;
+    display: flex;
+    justify-content: space-between;
+
+
+}
+
+.d1{
+    height: 50px;
+    width: 275px;
+    margin-left: 30px;
+    font-size: 10px;
+}
+
+.e1{
+    height: 50px;
+    width: 275px;
+    font-size: 10px;
+}
+
+.f1{
+    height: 50px;
+    width: 275px;
+    font-size: 10px;
+    margin-right: 30px;
+}
+
+p.inform{
+    font-size: 25px;
+    position: relative;
+    top: 7px;
+}
+
+p.inform:hover{
+    color: rgb(255,102,0);
+}
+
+.hike{
+    width: 55vw;
+    height: 75vh;
+    background-image: url("/img/hike.png");
+    background-size: cover;
+    display: inline-block;
+    position: relative;
+    top: -100px;
+    display: inline-block;
+
+}
+.sike{
+    width: 40vw;
+    height: 75vh;
+    background-color: black;
+    text-align: center;
+    display: inline-block;
+    position: relative;
+    color: rgb(189,189,183);
+    top: -346px;
+    font-size: 10px;
+
+}
+.lol{
+    position: relative;
+    top: 120px;
+}
+
+.mike{
+    color: white;
+    position: relative;
+    top: 100px;
+    font-size: 30px;
+
+}
+
+.hide{
+    color: white;
+   
+}
+.hide:hover{
+    color: white;
+}
+.btn3{
+    width: 150px;
+    height: 50px;
+    margin: 20px;
+    color: rgb(255,102,0);
+    background-color: transparent;
+    border: 1px solid rgb(255,102,0);
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: -38px;
+}
+.btn3:hover{
+    color: white;
+    background-color: rgb(255,102,0);
+    border: 1px solid rgb(255,102,0);
+    width: 180px;
+}
+.follow{
+    max-width: 100vw;
+    height: 15vh;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: -300px;
+}
+.btn4{
+    position: relative;
+    top: 130px;
+    width: 150px;
+    height: 50px;
+    margin: 20px;
+    color: white;
+    background-color: transparent;
+    border: 1px solid white;
+    font-size: 12px;
+}
+
+.btn4:hover{
+    color: rgb(255,102,0);
+    border: 1px solid rgb(255,102,0);
+ 
+
+}
+.para{
+    position: relative;
+    top: -300px;
+    height: 15vh;
+    max-width: 100vw;
+    font-size: 8px;
+    color: rgb(198,198,200);
+    display: flex;
+    justify-content: center;
+    
+}
+.hack{
+    width: 60vw;
+    border-radius: 50px;
+    height: 20vh;
+}
+body{
+    height: 6vh;
+    max-width: 100vw;
+}
+
+.ending{
+    max-width: 100vw;
+    height: 87vh;
+    background-color: black;
+    position: relative;
+    top: -225px;
+    display: flex;
+    justify-content: start;
+    justify-content: space-between;
+    padding-top: 13vh;
+
+}
+
+.z{
+    height: 45vh;
+    width:12vw;
+    position: relative;
+    left: -24px;
+}
+
+
+.y{
+    height: 45vh;
+    width:12vw;
+    
+}
+
+
+
+.x{
+    height: 40vh;
+    width:12vw;
+    
+}
+
+
+
+.v{
+    height: 40vh;
+    width:12vw;
+    
+}
+
+
+
+.u{
+    height: 40vh;
+    width:12vw;
+    margin-right: 50px;
+   
+}
+
+
+li.head{
+    font-size: 15px;
+    margin-bottom: 25px;
+}
+li.head:hover{
+    color: white;
+}
+
+li{
+    color: white;
+    list-style-type: none;
+    font-size: 10px;
+    margin: 10px 0;
+}
+
+li:hover{
+    color: rgb(255,102,0);
+}
+
+.pending{
+    position: relative;
+    top: -300px;
+    color: white;
+    background-color: black;
+    text-align: center;
+    font-size: 12px;
+
+}
+
+
